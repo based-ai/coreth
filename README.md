@@ -11,18 +11,18 @@ This chain implements the Ethereum Virtual Machine and supports Solidity smart c
 Coreth is a dependency of AvalancheGo which is used to implement the EVM based Virtual Machine for the Avalanche C-Chain. In order to run with a local version of Coreth, users must update their Coreth dependency within AvalancheGo to point to their local Coreth directory. If Coreth and AvalancheGo are at the standard location within your GOPATH, this will look like the following:
 
 ```bash
-cd $GOPATH/src/github.com/ava-labs/avalanchego
-go mod edit -replace github.com/ava-labs/coreth=../coreth
+cd $GOPATH/src/github.com/memeticofficial/pepecoingo
+go mod edit -replace github.com/memeticofficial/coreth=../coreth
 ```
 
 Now that AvalancheGo depends on the local version of Coreth, we can build with the normal build script:
 
 ```bash
 ./scripts/build.sh
-./build/avalanchego
+./build/pepecoingo
 ```
 
-Note: the C-Chain originally ran in a separate process from the main AvalancheGo process and communicated with it over a local gRPC connection. When this was the case, AvalancheGo's build script would download Coreth, compile it, and place the binary into the `avalanchego/build/plugins` directory.
+Note: the C-Chain originally ran in a separate process from the main AvalancheGo process and communicated with it over a local gRPC connection. When this was the case, AvalancheGo's build script would download Coreth, compile it, and place the binary into the `pepecoingo/build/plugins` directory.
 
 ## API
 
@@ -35,11 +35,11 @@ The C-Chain supports the following API namespaces:
 
 Only the `eth` namespace is enabled by default. 
 To enable the other namespaces see the instructions for passing the C-Chain config to AvalancheGo [here.](https://docs.avax.network/nodes/maintain/chain-config-flags/#c-chain-configs)
-Full documentation for the C-Chain's API can be found [here.](https://docs.avax.network/apis/avalanchego/apis/c-chain/)
+Full documentation for the C-Chain's API can be found [here.](https://docs.avax.network/apis/pepecoingo/apis/c-chain/)
 
 ## Compatibility
 
-The C-Chain is compatible with almost all Ethereum tooling, including [Remix,](https://docs.avax.network/build/tutorials/smart-contracts/deploy-a-smart-contract-on-avalanche-using-remix-and-metamask) [Metamask](https://docs.avax.network/build/tutorials/smart-contracts/deploy-a-smart-contract-on-avalanche-using-remix-and-metamask) and [Truffle.](https://docs.avax.network/build/tutorials/smart-contracts/using-truffle-with-the-avalanche-c-chain)
+The C-Chain is compatible with almost all Ethereum tooling, including [Remix,](https://docs.avax.network/build/tutorials/smart-contracts/deploy-a-smart-contract-on-pepecoin-using-remix-and-metamask) [Metamask](https://docs.avax.network/build/tutorials/smart-contracts/deploy-a-smart-contract-on-pepecoin-using-remix-and-metamask) and [Truffle.](https://docs.avax.network/build/tutorials/smart-contracts/using-truffle-with-the-pepecoin-c-chain)
 
 ## Differences Between Avalanche C-Chain and Ethereum
 

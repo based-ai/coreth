@@ -6,10 +6,10 @@ package evm
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/utils/formatting/address"
+	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/memeticofficial/pepecoingo/utils/constants"
+	"github.com/memeticofficial/pepecoingo/utils/crypto/secp256k1"
+	"github.com/memeticofficial/pepecoingo/utils/formatting/address"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )

@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	"github.com/ava-labs/coreth/sync/handlers"
+	"github.com/memeticofficial/pepecoingo/codec"
+	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/memeticofficial/coreth/core/types"
+	"github.com/memeticofficial/coreth/plugin/evm/message"
+	"github.com/memeticofficial/coreth/sync/handlers"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
 )

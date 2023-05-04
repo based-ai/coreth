@@ -7,17 +7,17 @@ import (
 	"math/big"
 	"math/rand"
 
-	"github.com/ava-labs/avalanchego/utils"
+	"github.com/memeticofficial/pepecoingo/utils"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/params"
+	"github.com/memeticofficial/pepecoingo/chains/atomic"
+	"github.com/memeticofficial/pepecoingo/codec"
+	"github.com/memeticofficial/pepecoingo/codec/linearcodec"
+	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/memeticofficial/pepecoingo/snow"
+	"github.com/memeticofficial/pepecoingo/utils/set"
+	"github.com/memeticofficial/pepecoingo/utils/wrappers"
+	"github.com/memeticofficial/coreth/core/state"
+	"github.com/memeticofficial/coreth/params"
 )
 
 type TestUnsignedTx struct {

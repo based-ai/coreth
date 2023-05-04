@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/memeticofficial/pepecoingo/utils/set"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/coreth/plugin/evm/message"
+	"github.com/memeticofficial/coreth/plugin/evm/message"
 )
 
 // locally issued txs should be gossiped

@@ -32,9 +32,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/ava-labs/coreth/ethdb"
-	"github.com/ava-labs/coreth/ethdb/leveldb"
-	"github.com/ava-labs/coreth/ethdb/memorydb"
+	"github.com/memeticofficial/coreth/ethdb"
+	"github.com/memeticofficial/coreth/ethdb/leveldb"
+	"github.com/memeticofficial/coreth/ethdb/memorydb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/olekukonko/tablewriter"

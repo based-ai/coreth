@@ -9,12 +9,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/coreth/consensus/dummy"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/ethdb"
-	"github.com/ava-labs/coreth/params"
+	"github.com/memeticofficial/coreth/consensus/dummy"
+	"github.com/memeticofficial/coreth/core/rawdb"
+	"github.com/memeticofficial/coreth/core/state"
+	"github.com/memeticofficial/coreth/core/types"
+	"github.com/memeticofficial/coreth/ethdb"
+	"github.com/memeticofficial/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )

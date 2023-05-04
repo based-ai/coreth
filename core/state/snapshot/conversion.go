@@ -36,9 +36,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/ethdb"
-	"github.com/ava-labs/coreth/trie"
+	"github.com/memeticofficial/coreth/core/rawdb"
+	"github.com/memeticofficial/coreth/ethdb"
+	"github.com/memeticofficial/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"

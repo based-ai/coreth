@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/memeticofficial/pepecoingo/ids"
 
 	"github.com/ethereum/go-ethereum/common"
 )

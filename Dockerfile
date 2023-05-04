@@ -5,24 +5,24 @@ RUN apt-get update && apt-get install -y --no-install-recommends bash=5.0-4 make
 
 ARG AVALANCHE_VERSION
 
-RUN mkdir -p $GOPATH/src/github.com/ava-labs
-WORKDIR $GOPATH/src/github.com/ava-labs
+RUN mkdir -p $GOPATH/src/github.com/memeticofficial
+WORKDIR $GOPATH/src/github.com/memeticofficial
 
-RUN git clone -b $AVALANCHE_VERSION --single-branch https://github.com/ava-labs/avalanchego.git
+RUN git clone -b $AVALANCHE_VERSION --single-branch https://github.com/memeticofficial/pepecoingo.git
 
 # Copy coreth repo into desired location
 COPY . coreth
 
 # Set the workdir to AvalancheGo and update coreth dependency to local version
-WORKDIR $GOPATH/src/github.com/ava-labs/avalanchego
+WORKDIR $GOPATH/src/github.com/memeticofficial/pepecoingo
 # Run go mod download here to improve caching of AvalancheGo specific depednencies
 RUN go mod download
 # Replace the coreth dependency
-RUN go mod edit -replace github.com/ava-labs/coreth=../coreth
+RUN go mod edit -replace github.com/memeticofficial/coreth=../coreth
 RUN go mod download && go mod tidy -compat=1.19
 
 # Build the AvalancheGo binary with local version of coreth.
-RUN ./scripts/build_avalanche.sh
+RUN ./scripts/build_pepecoin.sh
 # Create the plugins directory in the standard location so the build directory will be recognized
 # as valid.
 RUN mkdir build/plugins
@@ -31,10 +31,10 @@ RUN mkdir build/plugins
 FROM debian:11-slim AS execution
 
 # Maintain compatibility with previous images
-RUN mkdir -p /avalanchego/build
-WORKDIR /avalanchego/build
+RUN mkdir -p /pepecoingo/build
+WORKDIR /pepecoingo/build
 
 # Copy the executables into the container
-COPY --from=builder /go/src/github.com/ava-labs/avalanchego/build .
+COPY --from=builder /go/src/github.com/memeticofficial/pepecoingo/build .
 
-CMD [ "./avalanchego" ]
+CMD [ "./pepecoingo" ]

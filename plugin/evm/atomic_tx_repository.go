@@ -13,13 +13,13 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/memeticofficial/pepecoingo/codec"
+	"github.com/memeticofficial/pepecoingo/database"
+	"github.com/memeticofficial/pepecoingo/database/prefixdb"
+	"github.com/memeticofficial/pepecoingo/database/versiondb"
+	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/memeticofficial/pepecoingo/utils/units"
+	"github.com/memeticofficial/pepecoingo/utils/wrappers"
 )
 
 const (

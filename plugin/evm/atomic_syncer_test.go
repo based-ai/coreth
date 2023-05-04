@@ -11,15 +11,15 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
+	"github.com/memeticofficial/pepecoingo/database/memdb"
+	"github.com/memeticofficial/pepecoingo/database/versiondb"
 
-	"github.com/ava-labs/coreth/ethdb/memorydb"
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	syncclient "github.com/ava-labs/coreth/sync/client"
-	"github.com/ava-labs/coreth/sync/handlers"
-	handlerstats "github.com/ava-labs/coreth/sync/handlers/stats"
-	"github.com/ava-labs/coreth/trie"
+	"github.com/memeticofficial/coreth/ethdb/memorydb"
+	"github.com/memeticofficial/coreth/plugin/evm/message"
+	syncclient "github.com/memeticofficial/coreth/sync/client"
+	"github.com/memeticofficial/coreth/sync/handlers"
+	handlerstats "github.com/memeticofficial/coreth/sync/handlers/stats"
+	"github.com/memeticofficial/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 )
 

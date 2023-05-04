@@ -29,8 +29,8 @@ package leveldb
 import (
 	"testing"
 
-	"github.com/ava-labs/coreth/ethdb"
-	"github.com/ava-labs/coreth/ethdb/dbtest"
+	"github.com/memeticofficial/coreth/ethdb"
+	"github.com/memeticofficial/coreth/ethdb/dbtest"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 )

@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/ulimit"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm"
+	"github.com/memeticofficial/pepecoingo/utils/logging"
+	"github.com/memeticofficial/pepecoingo/utils/ulimit"
+	"github.com/memeticofficial/pepecoingo/vms/rpcchainvm"
 
-	"github.com/ava-labs/coreth/plugin/evm"
+	"github.com/memeticofficial/coreth/plugin/evm"
 )
 
 func main() {

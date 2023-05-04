@@ -30,7 +30,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ava-labs/coreth/params"
+	"github.com/memeticofficial/coreth/params"
 	"github.com/holiman/uint256"
 )
 

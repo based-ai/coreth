@@ -27,13 +27,13 @@
 package core
 
 import (
-	"github.com/ava-labs/coreth/consensus"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/state/snapshot"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/core/vm"
-	"github.com/ava-labs/coreth/params"
+	"github.com/memeticofficial/coreth/consensus"
+	"github.com/memeticofficial/coreth/core/rawdb"
+	"github.com/memeticofficial/coreth/core/state"
+	"github.com/memeticofficial/coreth/core/state/snapshot"
+	"github.com/memeticofficial/coreth/core/types"
+	"github.com/memeticofficial/coreth/core/vm"
+	"github.com/memeticofficial/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 )

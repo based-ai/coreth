@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/coreth/params"
+	"github.com/memeticofficial/pepecoingo/chains/atomic"
+	"github.com/memeticofficial/pepecoingo/snow"
+	"github.com/memeticofficial/coreth/params"
 	"github.com/stretchr/testify/require"
 )
 

@@ -33,9 +33,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/ethdb"
-	"github.com/ava-labs/coreth/ethdb/memorydb"
+	"github.com/memeticofficial/coreth/core/rawdb"
+	"github.com/memeticofficial/coreth/ethdb"
+	"github.com/memeticofficial/coreth/ethdb/memorydb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )

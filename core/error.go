@@ -29,7 +29,7 @@ package core
 import (
 	"errors"
 
-	"github.com/ava-labs/coreth/core/types"
+	"github.com/memeticofficial/coreth/core/types"
 )
 
 var (

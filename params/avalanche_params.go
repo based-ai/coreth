@@ -6,7 +6,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/memeticofficial/pepecoingo/utils/units"
 )
 
 // Minimum Gas Price

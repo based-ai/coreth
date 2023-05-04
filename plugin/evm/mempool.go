@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/coreth/metrics"
+	"github.com/memeticofficial/pepecoingo/cache"
+	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/memeticofficial/coreth/metrics"
 	"github.com/ethereum/go-ethereum/log"
 )
 

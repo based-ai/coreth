@@ -33,21 +33,21 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/coreth/accounts/abi"
-	"github.com/ava-labs/coreth/consensus"
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/core/vm"
-	"github.com/ava-labs/coreth/eth/tracers"
-	"github.com/ava-labs/coreth/eth/tracers/logger"
-	"github.com/ava-labs/coreth/params"
+	"github.com/memeticofficial/coreth/accounts/abi"
+	"github.com/memeticofficial/coreth/consensus"
+	"github.com/memeticofficial/coreth/core"
+	"github.com/memeticofficial/coreth/core/rawdb"
+	"github.com/memeticofficial/coreth/core/state"
+	"github.com/memeticofficial/coreth/core/types"
+	"github.com/memeticofficial/coreth/core/vm"
+	"github.com/memeticofficial/coreth/eth/tracers"
+	"github.com/memeticofficial/coreth/eth/tracers/logger"
+	"github.com/memeticofficial/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/asm"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/ava-labs/coreth/eth/tracers/js"
+	_ "github.com/memeticofficial/coreth/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {

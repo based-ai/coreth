@@ -11,24 +11,24 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/memeticofficial/pepecoingo/ids"
 
-	"github.com/ava-labs/coreth/ethdb/memorydb"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/sync/client/stats"
+	"github.com/memeticofficial/coreth/ethdb/memorydb"
+	"github.com/memeticofficial/coreth/params"
+	"github.com/memeticofficial/coreth/sync/client/stats"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/memeticofficial/pepecoingo/codec"
+	"github.com/memeticofficial/pepecoingo/version"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/ethdb"
-	"github.com/ava-labs/coreth/peer"
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	"github.com/ava-labs/coreth/trie"
+	"github.com/memeticofficial/coreth/core/types"
+	"github.com/memeticofficial/coreth/ethdb"
+	"github.com/memeticofficial/coreth/peer"
+	"github.com/memeticofficial/coreth/plugin/evm/message"
+	"github.com/memeticofficial/coreth/trie"
 )
 
 const (

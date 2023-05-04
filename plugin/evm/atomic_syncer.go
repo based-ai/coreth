@@ -9,14 +9,14 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/memeticofficial/pepecoingo/database/versiondb"
+	"github.com/memeticofficial/pepecoingo/utils/wrappers"
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	syncclient "github.com/ava-labs/coreth/sync/client"
-	"github.com/ava-labs/coreth/trie"
+	"github.com/memeticofficial/coreth/plugin/evm/message"
+	syncclient "github.com/memeticofficial/coreth/sync/client"
+	"github.com/memeticofficial/coreth/trie"
 )
 
 var (

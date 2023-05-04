@@ -3,7 +3,7 @@
 
 package evm
 
-import "github.com/ava-labs/coreth/metrics"
+import "github.com/memeticofficial/coreth/metrics"
 
 var _ GossipStats = &gossipStats{}
 

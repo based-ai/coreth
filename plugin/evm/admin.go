@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/utils/profiler"
+	"github.com/memeticofficial/pepecoingo/api"
+	"github.com/memeticofficial/pepecoingo/utils/profiler"
 	"github.com/ethereum/go-ethereum/log"
 )
 

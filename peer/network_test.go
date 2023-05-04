@@ -12,19 +12,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/memeticofficial/pepecoingo/snow/engine/common"
+	"github.com/memeticofficial/pepecoingo/utils/set"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 
-	"github.com/ava-labs/coreth/plugin/evm/message"
+	"github.com/memeticofficial/coreth/plugin/evm/message"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/memeticofficial/pepecoingo/codec"
+	"github.com/memeticofficial/pepecoingo/codec/linearcodec"
+	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/memeticofficial/pepecoingo/version"
 )
 
 var (
@@ -319,7 +319,7 @@ func TestRequestMinVersion(t *testing.T) {
 		},
 		requestBytes,
 	)
-	assert.Equal(t, err.Error(), "no peers found matching version avalanche/2.0.0 out of 1 peers")
+	assert.Equal(t, err.Error(), "no peers found matching version pepecoin/2.0.0 out of 1 peers")
 	assert.Nil(t, responseBytes)
 
 	// ensure version matches and the request goes through

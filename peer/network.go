@@ -14,16 +14,16 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/memeticofficial/pepecoingo/codec"
+	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/memeticofficial/pepecoingo/snow/engine/common"
+	"github.com/memeticofficial/pepecoingo/snow/validators"
+	"github.com/memeticofficial/pepecoingo/utils"
+	"github.com/memeticofficial/pepecoingo/utils/set"
+	"github.com/memeticofficial/pepecoingo/version"
 
-	"github.com/ava-labs/coreth/peer/stats"
-	"github.com/ava-labs/coreth/plugin/evm/message"
+	"github.com/memeticofficial/coreth/peer/stats"
+	"github.com/memeticofficial/coreth/plugin/evm/message"
 )
 
 // Minimum amount of time to handle a request
@@ -84,10 +84,10 @@ type network struct {
 	lock                       sync.RWMutex                       // lock for mutating state of this Network struct
 	self                       ids.NodeID                         // NodeID of this node
 	requestIDGen               uint32                             // requestID counter used to track outbound requests
-	outstandingRequestHandlers map[uint32]message.ResponseHandler // maps avalanchego requestID => message.ResponseHandler
+	outstandingRequestHandlers map[uint32]message.ResponseHandler // maps pepecoingo requestID => message.ResponseHandler
 	activeAppRequests          *semaphore.Weighted                // controls maximum number of active outbound requests
 	activeCrossChainRequests   *semaphore.Weighted                // controls maximum number of active outbound cross chain requests
-	appSender                  common.AppSender                   // avalanchego AppSender for sending messages
+	appSender                  common.AppSender                   // pepecoingo AppSender for sending messages
 	codec                      codec.Manager                      // Codec used for parsing messages
 	crossChainCodec            codec.Manager                      // Codec used for parsing cross chain messages
 	appRequestHandler          message.RequestHandler             // maps request type => handler
@@ -264,7 +264,7 @@ func (n *network) CrossChainAppRequest(ctx context.Context, requestingChainID id
 	}
 }
 
-// CrossChainAppRequestFailed can be called by the avalanchego -> VM in following cases:
+// CrossChainAppRequestFailed can be called by the pepecoingo -> VM in following cases:
 // - respondingChain doesn't exist
 // - invalid CrossChainAppResponse from respondingChain
 // - invalid CrossChainRequest was sent to respondingChain
@@ -321,7 +321,7 @@ func (n *network) CrossChainAppResponse(ctx context.Context, respondingChainID i
 	return handler.OnResponse(response)
 }
 
-// AppRequest is called by avalanchego -> VM when there is an incoming AppRequest from a peer
+// AppRequest is called by pepecoingo -> VM when there is an incoming AppRequest from a peer
 // error returned by this function is expected to be treated as fatal by the engine
 // returns error if the requestHandler returns an error
 // sends a response back to the sender if length of response returned by the handler is >0
@@ -389,7 +389,7 @@ func (n *network) AppResponse(_ context.Context, nodeID ids.NodeID, requestID ui
 	return handler.OnResponse(response)
 }
 
-// AppRequestFailed can be called by the avalanchego -> VM in following cases:
+// AppRequestFailed can be called by the pepecoingo -> VM in following cases:
 // - node is benched
 // - failed to send message to [nodeID] due to a network issue
 // - request times out before a response is provided
@@ -463,7 +463,7 @@ func (n *network) Gossip(gossip []byte) error {
 	return n.appSender.SendAppGossip(context.TODO(), gossip)
 }
 
-// AppGossip is called by avalanchego -> VM when there is an incoming AppGossip from a peer
+// AppGossip is called by pepecoingo -> VM when there is an incoming AppGossip from a peer
 // error returned by this function is expected to be treated as fatal by the engine
 // returns error if request could not be parsed as message.Request or when the requestHandler returns an error
 func (n *network) AppGossip(_ context.Context, nodeID ids.NodeID, gossipBytes []byte) error {

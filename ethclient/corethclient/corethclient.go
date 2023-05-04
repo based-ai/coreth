@@ -33,10 +33,10 @@ import (
 	"runtime"
 	"runtime/debug"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/ethclient"
-	"github.com/ava-labs/coreth/interfaces"
-	"github.com/ava-labs/coreth/rpc"
+	"github.com/memeticofficial/coreth/core/types"
+	"github.com/memeticofficial/coreth/ethclient"
+	"github.com/memeticofficial/coreth/interfaces"
+	"github.com/memeticofficial/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )

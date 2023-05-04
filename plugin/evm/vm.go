@@ -16,29 +16,29 @@ import (
 	"sync"
 	"time"
 
-	avalanchegoMetrics "github.com/ava-labs/avalanchego/api/metrics"
+	pepecoingoMetrics "github.com/memeticofficial/pepecoingo/api/metrics"
 
-	"github.com/ava-labs/coreth/consensus/dummy"
-	corethConstants "github.com/ava-labs/coreth/constants"
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/eth"
-	"github.com/ava-labs/coreth/eth/ethconfig"
-	"github.com/ava-labs/coreth/ethdb"
-	corethPrometheus "github.com/ava-labs/coreth/metrics/prometheus"
-	"github.com/ava-labs/coreth/miner"
-	"github.com/ava-labs/coreth/node"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/peer"
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	"github.com/ava-labs/coreth/rpc"
-	statesyncclient "github.com/ava-labs/coreth/sync/client"
-	"github.com/ava-labs/coreth/sync/client/stats"
-	"github.com/ava-labs/coreth/sync/handlers"
-	handlerstats "github.com/ava-labs/coreth/sync/handlers/stats"
-	"github.com/ava-labs/coreth/trie"
+	"github.com/memeticofficial/coreth/consensus/dummy"
+	corethConstants "github.com/memeticofficial/coreth/constants"
+	"github.com/memeticofficial/coreth/core"
+	"github.com/memeticofficial/coreth/core/rawdb"
+	"github.com/memeticofficial/coreth/core/state"
+	"github.com/memeticofficial/coreth/core/types"
+	"github.com/memeticofficial/coreth/eth"
+	"github.com/memeticofficial/coreth/eth/ethconfig"
+	"github.com/memeticofficial/coreth/ethdb"
+	corethPrometheus "github.com/memeticofficial/coreth/metrics/prometheus"
+	"github.com/memeticofficial/coreth/miner"
+	"github.com/memeticofficial/coreth/node"
+	"github.com/memeticofficial/coreth/params"
+	"github.com/memeticofficial/coreth/peer"
+	"github.com/memeticofficial/coreth/plugin/evm/message"
+	"github.com/memeticofficial/coreth/rpc"
+	statesyncclient "github.com/memeticofficial/coreth/sync/client"
+	"github.com/memeticofficial/coreth/sync/client/stats"
+	"github.com/memeticofficial/coreth/sync/handlers"
+	handlerstats "github.com/memeticofficial/coreth/sync/handlers/stats"
+	"github.com/memeticofficial/coreth/trie"
 
 	"github.com/prometheus/client_golang/prometheus"
 	// Force-load tracer engine to trigger registration
@@ -46,46 +46,46 @@ import (
 	// We must import this package (not referenced elsewhere) so that the native "callTracer"
 	// is added to a map of client-accessible tracers. In geth, this is done
 	// inside of cmd/geth.
-	_ "github.com/ava-labs/coreth/eth/tracers/js"
-	_ "github.com/ava-labs/coreth/eth/tracers/native"
+	_ "github.com/memeticofficial/coreth/eth/tracers/js"
+	_ "github.com/memeticofficial/coreth/eth/tracers/native"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/ava-labs/coreth/metrics"
+	"github.com/memeticofficial/coreth/metrics"
 
-	avalancheRPC "github.com/gorilla/rpc/v2"
+	pepecoinRPC "github.com/gorilla/rpc/v2"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/manager"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/utils/formatting/address"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/utils/perms"
-	"github.com/ava-labs/avalanchego/utils/profiler"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/chain"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/memeticofficial/pepecoingo/cache"
+	"github.com/memeticofficial/pepecoingo/codec"
+	"github.com/memeticofficial/pepecoingo/codec/linearcodec"
+	"github.com/memeticofficial/pepecoingo/database"
+	"github.com/memeticofficial/pepecoingo/database/manager"
+	"github.com/memeticofficial/pepecoingo/database/prefixdb"
+	"github.com/memeticofficial/pepecoingo/database/versiondb"
+	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/memeticofficial/pepecoingo/snow"
+	"github.com/memeticofficial/pepecoingo/snow/choices"
+	"github.com/memeticofficial/pepecoingo/snow/consensus/snowman"
+	"github.com/memeticofficial/pepecoingo/snow/engine/snowman/block"
+	"github.com/memeticofficial/pepecoingo/utils/constants"
+	"github.com/memeticofficial/pepecoingo/utils/crypto/secp256k1"
+	"github.com/memeticofficial/pepecoingo/utils/formatting/address"
+	"github.com/memeticofficial/pepecoingo/utils/logging"
+	"github.com/memeticofficial/pepecoingo/utils/math"
+	"github.com/memeticofficial/pepecoingo/utils/perms"
+	"github.com/memeticofficial/pepecoingo/utils/profiler"
+	"github.com/memeticofficial/pepecoingo/utils/set"
+	"github.com/memeticofficial/pepecoingo/utils/timer/mockable"
+	"github.com/memeticofficial/pepecoingo/utils/units"
+	"github.com/memeticofficial/pepecoingo/vms/components/avax"
+	"github.com/memeticofficial/pepecoingo/vms/components/chain"
+	"github.com/memeticofficial/pepecoingo/vms/secp256k1fx"
 
-	commonEng "github.com/ava-labs/avalanchego/snow/engine/common"
+	commonEng "github.com/memeticofficial/pepecoingo/snow/engine/common"
 
-	avalancheJSON "github.com/ava-labs/avalanchego/utils/json"
+	pepecoinJSON "github.com/memeticofficial/pepecoingo/utils/json"
 )
 
 const (
@@ -275,7 +275,7 @@ type VM struct {
 	networkCodec codec.Manager
 
 	// Metrics
-	multiGatherer avalanchegoMetrics.MultiGatherer
+	multiGatherer pepecoingoMetrics.MultiGatherer
 
 	bootstrapped bool
 	IsPlugin     bool
@@ -547,7 +547,7 @@ func (vm *VM) Initialize(
 }
 
 func (vm *VM) initializeMetrics() error {
-	vm.multiGatherer = avalanchegoMetrics.NewMultiGatherer()
+	vm.multiGatherer = pepecoingoMetrics.NewMultiGatherer()
 	// If metrics are enabled, register the default metrics regitry
 	if metrics.Enabled {
 		gatherer := corethPrometheus.Gatherer(metrics.DefaultRegistry)
@@ -1118,9 +1118,9 @@ func (vm *VM) Version(context.Context) (string, error) {
 //     By default the LockOption is WriteLock
 //     [lockOption] should have either 0 or 1 elements. Elements beside the first are ignored.
 func newHandler(name string, service interface{}, lockOption ...commonEng.LockOption) (*commonEng.HTTPHandler, error) {
-	server := avalancheRPC.NewServer()
-	server.RegisterCodec(avalancheJSON.NewCodec(), "application/json")
-	server.RegisterCodec(avalancheJSON.NewCodec(), "application/json;charset=UTF-8")
+	server := pepecoinRPC.NewServer()
+	server.RegisterCodec(pepecoinJSON.NewCodec(), "application/json")
+	server.RegisterCodec(pepecoinJSON.NewCodec(), "application/json;charset=UTF-8")
 	if err := server.RegisterService(service, name); err != nil {
 		return nil, err
 	}

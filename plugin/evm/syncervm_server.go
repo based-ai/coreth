@@ -7,11 +7,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
+	"github.com/memeticofficial/pepecoingo/database"
+	"github.com/memeticofficial/pepecoingo/snow/engine/snowman/block"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/plugin/evm/message"
+	"github.com/memeticofficial/coreth/core"
+	"github.com/memeticofficial/coreth/plugin/evm/message"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

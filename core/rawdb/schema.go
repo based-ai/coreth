@@ -31,8 +31,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/coreth/metrics"
+	"github.com/memeticofficial/pepecoingo/utils/wrappers"
+	"github.com/memeticofficial/coreth/metrics"
 	"github.com/ethereum/go-ethereum/common"
 )
 

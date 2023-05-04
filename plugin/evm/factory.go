@@ -4,9 +4,9 @@
 package evm
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/vms"
+	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/memeticofficial/pepecoingo/utils/logging"
+	"github.com/memeticofficial/pepecoingo/vms"
 )
 
 var (

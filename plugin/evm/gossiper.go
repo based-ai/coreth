@@ -9,23 +9,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/avalanchego/codec"
+	"github.com/memeticofficial/pepecoingo/codec"
 
-	"github.com/ava-labs/coreth/peer"
+	"github.com/memeticofficial/coreth/peer"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/memeticofficial/pepecoingo/cache"
+	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/memeticofficial/pepecoingo/snow"
+	"github.com/memeticofficial/pepecoingo/utils/wrappers"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/plugin/evm/message"
+	"github.com/memeticofficial/coreth/core"
+	"github.com/memeticofficial/coreth/core/state"
+	"github.com/memeticofficial/coreth/core/types"
+	"github.com/memeticofficial/coreth/plugin/evm/message"
 )
 
 const (

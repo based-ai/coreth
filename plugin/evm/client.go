@@ -9,13 +9,13 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/rpc"
+	"github.com/memeticofficial/pepecoingo/api"
+	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/memeticofficial/pepecoingo/utils/crypto/secp256k1"
+	"github.com/memeticofficial/pepecoingo/utils/formatting"
+	"github.com/memeticofficial/pepecoingo/utils/rpc"
 
-	cjson "github.com/ava-labs/avalanchego/utils/json"
+	cjson "github.com/memeticofficial/pepecoingo/utils/json"
 )
 
 // Interface compliance
