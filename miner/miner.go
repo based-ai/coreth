@@ -28,11 +28,11 @@
 package miner
 
 import (
-	"github.com/memeticofficial/pepecoingo/utils/timer/mockable"
-	"github.com/memeticofficial/coreth/consensus"
-	"github.com/memeticofficial/coreth/core"
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/basedaigo/utils/timer/mockable"
+	"github.com/based-ai/coreth/consensus"
+	"github.com/based-ai/coreth/core"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 )

@@ -4,10 +4,10 @@
 package message
 
 import (
-	"github.com/memeticofficial/pepecoingo/codec"
-	"github.com/memeticofficial/pepecoingo/codec/linearcodec"
-	"github.com/memeticofficial/pepecoingo/utils/units"
-	"github.com/memeticofficial/pepecoingo/utils/wrappers"
+	"github.com/based-ai/basedaigo/codec"
+	"github.com/based-ai/basedaigo/codec/linearcodec"
+	"github.com/based-ai/basedaigo/utils/units"
+	"github.com/based-ai/basedaigo/utils/wrappers"
 )
 
 const (

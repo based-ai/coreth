@@ -8,7 +8,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/memeticofficial/coreth/utils"
+	"github.com/based-ai/coreth/utils"
 )
 
 // StatefulPrecompileConfig defines the interface for a stateful precompile to

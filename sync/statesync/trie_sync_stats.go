@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	utils_math "github.com/memeticofficial/pepecoingo/utils/math"
-	"github.com/memeticofficial/coreth/metrics"
+	utils_math "github.com/based-ai/basedaigo/utils/math"
+	"github.com/based-ai/coreth/metrics"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

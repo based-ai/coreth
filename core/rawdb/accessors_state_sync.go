@@ -6,8 +6,8 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/memeticofficial/pepecoingo/utils/wrappers"
-	"github.com/memeticofficial/coreth/ethdb"
+	"github.com/based-ai/basedaigo/utils/wrappers"
+	"github.com/based-ai/coreth/ethdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

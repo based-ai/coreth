@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/utils/set"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/utils/set"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
@@ -23,10 +23,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/memeticofficial/coreth/core"
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/params"
-	"github.com/memeticofficial/coreth/plugin/evm/message"
+	"github.com/based-ai/coreth/core"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/params"
+	"github.com/based-ai/coreth/plugin/evm/message"
 )
 
 func fundAddressByGenesis(addrs []common.Address) (string, error) {

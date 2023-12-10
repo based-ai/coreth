@@ -11,14 +11,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/memeticofficial/pepecoingo/chains/atomic"
-	"github.com/memeticofficial/pepecoingo/database"
-	"github.com/memeticofficial/pepecoingo/database/leveldb"
-	"github.com/memeticofficial/pepecoingo/database/memdb"
-	"github.com/memeticofficial/pepecoingo/database/versiondb"
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/utils/logging"
-	"github.com/memeticofficial/pepecoingo/utils/wrappers"
+	"github.com/based-ai/basedaigo/chains/atomic"
+	"github.com/based-ai/basedaigo/database"
+	"github.com/based-ai/basedaigo/database/leveldb"
+	"github.com/based-ai/basedaigo/database/memdb"
+	"github.com/based-ai/basedaigo/database/versiondb"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/utils/logging"
+	"github.com/based-ai/basedaigo/utils/wrappers"
 
 	"github.com/ethereum/go-ethereum/common"
 )

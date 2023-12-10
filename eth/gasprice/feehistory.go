@@ -33,8 +33,8 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/rpc"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

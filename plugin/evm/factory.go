@@ -4,9 +4,9 @@
 package evm
 
 import (
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/utils/logging"
-	"github.com/memeticofficial/pepecoingo/vms"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/utils/logging"
+	"github.com/based-ai/basedaigo/vms"
 )
 
 var (

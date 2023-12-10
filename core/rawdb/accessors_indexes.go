@@ -30,9 +30,9 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/ethdb"
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/ethdb"
+	"github.com/based-ai/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"

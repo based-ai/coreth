@@ -7,14 +7,14 @@ import (
 	"context"
 	"testing"
 
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/coreth/params"
 
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/utils"
-	"github.com/memeticofficial/pepecoingo/utils/crypto/secp256k1"
-	"github.com/memeticofficial/pepecoingo/vms/components/avax"
-	"github.com/memeticofficial/pepecoingo/vms/components/chain"
-	"github.com/memeticofficial/pepecoingo/vms/secp256k1fx"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/utils"
+	"github.com/based-ai/basedaigo/utils/crypto/secp256k1"
+	"github.com/based-ai/basedaigo/vms/components/avax"
+	"github.com/based-ai/basedaigo/vms/components/chain"
+	"github.com/based-ai/basedaigo/vms/secp256k1fx"
 
 	"github.com/stretchr/testify/assert"
 )

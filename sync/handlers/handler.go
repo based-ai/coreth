@@ -6,14 +6,14 @@ package handlers
 import (
 	"context"
 
-	"github.com/memeticofficial/pepecoingo/codec"
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/coreth/core/state/snapshot"
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/ethdb"
-	"github.com/memeticofficial/coreth/plugin/evm/message"
-	"github.com/memeticofficial/coreth/sync/handlers/stats"
-	"github.com/memeticofficial/coreth/trie"
+	"github.com/based-ai/basedaigo/codec"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/coreth/core/state/snapshot"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/ethdb"
+	"github.com/based-ai/coreth/plugin/evm/message"
+	"github.com/based-ai/coreth/sync/handlers/stats"
+	"github.com/based-ai/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 )
 

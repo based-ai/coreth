@@ -31,8 +31,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/memeticofficial/coreth/ethdb/memorydb"
-	"github.com/memeticofficial/coreth/utils"
+	"github.com/based-ai/coreth/ethdb/memorydb"
+	"github.com/based-ai/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )

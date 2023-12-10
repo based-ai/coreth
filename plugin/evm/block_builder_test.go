@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/coreth/params"
 
-	"github.com/memeticofficial/pepecoingo/snow"
+	"github.com/based-ai/basedaigo/snow"
 )
 
 func TestBlockBuilderShutsDown(t *testing.T) {

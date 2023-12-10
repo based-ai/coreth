@@ -34,8 +34,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/memeticofficial/coreth/accounts/abi/bind"
-	"github.com/memeticofficial/coreth/internal/flags"
+	"github.com/based-ai/coreth/accounts/abi/bind"
+	"github.com/based-ai/coreth/internal/flags"
 	"github.com/ethereum/go-ethereum/cmd/utils"
 	"github.com/ethereum/go-ethereum/common/compiler"
 	"github.com/ethereum/go-ethereum/crypto"

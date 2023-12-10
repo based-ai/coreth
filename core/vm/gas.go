@@ -27,7 +27,7 @@
 package vm
 
 import (
-	"github.com/memeticofficial/coreth/vmerrs"
+	"github.com/based-ai/coreth/vmerrs"
 	"github.com/holiman/uint256"
 )
 

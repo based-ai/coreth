@@ -31,10 +31,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/memeticofficial/coreth/accounts"
-	"github.com/memeticofficial/coreth/accounts/external"
-	"github.com/memeticofficial/coreth/accounts/keystore"
-	"github.com/memeticofficial/coreth/rpc"
+	"github.com/based-ai/coreth/accounts"
+	"github.com/based-ai/coreth/accounts/external"
+	"github.com/based-ai/coreth/accounts/keystore"
+	"github.com/based-ai/coreth/rpc"
 	"github.com/ethereum/go-ethereum/log"
 )
 

@@ -31,7 +31,7 @@ import (
 	"container/heap"
 	"errors"
 
-	"github.com/memeticofficial/coreth/ethdb"
+	"github.com/based-ai/coreth/ethdb"
 	"github.com/ethereum/go-ethereum/common"
 )
 

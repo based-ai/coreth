@@ -32,12 +32,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/memeticofficial/coreth/core"
-	"github.com/memeticofficial/coreth/core/state"
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/core/vm"
-	"github.com/memeticofficial/coreth/eth/tracers"
-	"github.com/memeticofficial/coreth/trie"
+	"github.com/based-ai/coreth/core"
+	"github.com/based-ai/coreth/core/state"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/core/vm"
+	"github.com/based-ai/coreth/eth/tracers"
+	"github.com/based-ai/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

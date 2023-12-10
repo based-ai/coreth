@@ -38,9 +38,9 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/memeticofficial/coreth/core/rawdb"
-	"github.com/memeticofficial/coreth/ethdb"
-	"github.com/memeticofficial/coreth/ethdb/memorydb"
+	"github.com/based-ai/coreth/core/rawdb"
+	"github.com/based-ai/coreth/ethdb"
+	"github.com/based-ai/coreth/ethdb/memorydb"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"

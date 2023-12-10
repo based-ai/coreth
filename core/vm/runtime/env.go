@@ -27,8 +27,8 @@
 package runtime
 
 import (
-	"github.com/memeticofficial/coreth/core"
-	"github.com/memeticofficial/coreth/core/vm"
+	"github.com/based-ai/coreth/core"
+	"github.com/based-ai/coreth/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

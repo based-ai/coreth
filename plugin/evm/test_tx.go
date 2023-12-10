@@ -7,17 +7,17 @@ import (
 	"math/big"
 	"math/rand"
 
-	"github.com/memeticofficial/pepecoingo/utils"
+	"github.com/based-ai/basedaigo/utils"
 
-	"github.com/memeticofficial/pepecoingo/chains/atomic"
-	"github.com/memeticofficial/pepecoingo/codec"
-	"github.com/memeticofficial/pepecoingo/codec/linearcodec"
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/snow"
-	"github.com/memeticofficial/pepecoingo/utils/set"
-	"github.com/memeticofficial/pepecoingo/utils/wrappers"
-	"github.com/memeticofficial/coreth/core/state"
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/basedaigo/chains/atomic"
+	"github.com/based-ai/basedaigo/codec"
+	"github.com/based-ai/basedaigo/codec/linearcodec"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/snow"
+	"github.com/based-ai/basedaigo/utils/set"
+	"github.com/based-ai/basedaigo/utils/wrappers"
+	"github.com/based-ai/coreth/core/state"
+	"github.com/based-ai/coreth/params"
 )
 
 type TestUnsignedTx struct {

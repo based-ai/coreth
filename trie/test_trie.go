@@ -10,9 +10,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/memeticofficial/pepecoingo/utils/wrappers"
-	"github.com/memeticofficial/coreth/accounts/keystore"
-	"github.com/memeticofficial/coreth/core/types"
+	"github.com/based-ai/basedaigo/utils/wrappers"
+	"github.com/based-ai/coreth/accounts/keystore"
+	"github.com/based-ai/coreth/core/types"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"

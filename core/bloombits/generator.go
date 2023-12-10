@@ -29,7 +29,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/memeticofficial/coreth/core/types"
+	"github.com/based-ai/coreth/core/types"
 )
 
 var (

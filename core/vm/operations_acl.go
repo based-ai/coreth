@@ -29,8 +29,8 @@ package vm
 import (
 	"errors"
 
-	"github.com/memeticofficial/coreth/params"
-	"github.com/memeticofficial/coreth/vmerrs"
+	"github.com/based-ai/coreth/params"
+	"github.com/based-ai/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 )

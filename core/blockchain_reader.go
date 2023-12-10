@@ -27,13 +27,13 @@
 package core
 
 import (
-	"github.com/memeticofficial/coreth/consensus"
-	"github.com/memeticofficial/coreth/core/rawdb"
-	"github.com/memeticofficial/coreth/core/state"
-	"github.com/memeticofficial/coreth/core/state/snapshot"
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/core/vm"
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/coreth/consensus"
+	"github.com/based-ai/coreth/core/rawdb"
+	"github.com/based-ai/coreth/core/state"
+	"github.com/based-ai/coreth/core/state/snapshot"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/core/vm"
+	"github.com/based-ai/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 )

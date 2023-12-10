@@ -4,7 +4,7 @@
 package peer
 
 import (
-	"github.com/memeticofficial/coreth/plugin/evm/message"
+	"github.com/based-ai/coreth/plugin/evm/message"
 )
 
 var _ message.ResponseHandler = &waitingResponseHandler{}

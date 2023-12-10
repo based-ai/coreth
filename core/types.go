@@ -27,9 +27,9 @@
 package core
 
 import (
-	"github.com/memeticofficial/coreth/core/state"
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/core/vm"
+	"github.com/based-ai/coreth/core/state"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

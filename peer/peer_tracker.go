@@ -8,14 +8,14 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/memeticofficial/pepecoingo/ids"
-	utils_math "github.com/memeticofficial/pepecoingo/utils/math"
-	"github.com/memeticofficial/pepecoingo/utils/set"
-	"github.com/memeticofficial/pepecoingo/version"
+	"github.com/based-ai/basedaigo/ids"
+	utils_math "github.com/based-ai/basedaigo/utils/math"
+	"github.com/based-ai/basedaigo/utils/set"
+	"github.com/based-ai/basedaigo/version"
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/memeticofficial/coreth/metrics"
+	"github.com/based-ai/coreth/metrics"
 )
 
 const (

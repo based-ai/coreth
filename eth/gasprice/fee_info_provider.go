@@ -30,9 +30,9 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/memeticofficial/coreth/core"
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/rpc"
+	"github.com/based-ai/coreth/core"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/rpc"
 	lru "github.com/hashicorp/golang-lru"
 )
 

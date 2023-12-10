@@ -34,9 +34,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/metrics"
-	"github.com/memeticofficial/coreth/trie"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/metrics"
+	"github.com/based-ai/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rlp"

@@ -34,10 +34,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/memeticofficial/coreth/core/state"
-	"github.com/memeticofficial/coreth/core/vm"
-	"github.com/memeticofficial/coreth/eth/tracers"
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/coreth/core/state"
+	"github.com/based-ai/coreth/core/vm"
+	"github.com/based-ai/coreth/eth/tracers"
+	"github.com/based-ai/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 )
 

@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/based-ai/basedaigo/ids"
 )
 
 var _ CrossChainRequest = EthCallRequest{}

@@ -6,7 +6,7 @@ package stats
 import (
 	"time"
 
-	"github.com/memeticofficial/coreth/metrics"
+	"github.com/based-ai/coreth/metrics"
 )
 
 // RequestHandlerStats provides the interface for metrics for both app requests and cross chain requests.

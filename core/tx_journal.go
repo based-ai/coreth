@@ -32,7 +32,7 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/memeticofficial/coreth/core/types"
+	"github.com/based-ai/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"

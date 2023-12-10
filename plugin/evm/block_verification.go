@@ -9,12 +9,12 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	safemath "github.com/memeticofficial/pepecoingo/utils/math"
+	safemath "github.com/based-ai/basedaigo/utils/math"
 
-	"github.com/memeticofficial/coreth/constants"
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/params"
-	"github.com/memeticofficial/coreth/trie"
+	"github.com/based-ai/coreth/constants"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/params"
+	"github.com/based-ai/coreth/trie"
 )
 
 var (

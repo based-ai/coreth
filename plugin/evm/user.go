@@ -6,9 +6,9 @@ package evm
 import (
 	"errors"
 
-	"github.com/memeticofficial/pepecoingo/database/encdb"
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/utils/crypto/secp256k1"
+	"github.com/based-ai/basedaigo/database/encdb"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/utils/crypto/secp256k1"
 	"github.com/ethereum/go-ethereum/common"
 )
 

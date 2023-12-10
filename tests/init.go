@@ -31,7 +31,7 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/coreth/params"
 )
 
 // Forks table defines supported forks and their chain config.

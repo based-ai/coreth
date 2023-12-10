@@ -30,7 +30,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/memeticofficial/coreth/metrics"
+	"github.com/based-ai/coreth/metrics"
 )
 
 var (

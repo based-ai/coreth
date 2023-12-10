@@ -6,9 +6,9 @@ package evm
 import (
 	"fmt"
 
-	"github.com/memeticofficial/pepecoingo/chains/atomic"
-	"github.com/memeticofficial/pepecoingo/database"
-	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/based-ai/basedaigo/chains/atomic"
+	"github.com/based-ai/basedaigo/database"
+	"github.com/based-ai/basedaigo/ids"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

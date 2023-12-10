@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/based-ai/basedaigo/ids"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

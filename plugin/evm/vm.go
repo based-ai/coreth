@@ -16,29 +16,29 @@ import (
 	"sync"
 	"time"
 
-	pepecoingoMetrics "github.com/memeticofficial/pepecoingo/api/metrics"
+	basedaigoMetrics "github.com/based-ai/basedaigo/api/metrics"
 
-	"github.com/memeticofficial/coreth/consensus/dummy"
-	corethConstants "github.com/memeticofficial/coreth/constants"
-	"github.com/memeticofficial/coreth/core"
-	"github.com/memeticofficial/coreth/core/rawdb"
-	"github.com/memeticofficial/coreth/core/state"
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/eth"
-	"github.com/memeticofficial/coreth/eth/ethconfig"
-	"github.com/memeticofficial/coreth/ethdb"
-	corethPrometheus "github.com/memeticofficial/coreth/metrics/prometheus"
-	"github.com/memeticofficial/coreth/miner"
-	"github.com/memeticofficial/coreth/node"
-	"github.com/memeticofficial/coreth/params"
-	"github.com/memeticofficial/coreth/peer"
-	"github.com/memeticofficial/coreth/plugin/evm/message"
-	"github.com/memeticofficial/coreth/rpc"
-	statesyncclient "github.com/memeticofficial/coreth/sync/client"
-	"github.com/memeticofficial/coreth/sync/client/stats"
-	"github.com/memeticofficial/coreth/sync/handlers"
-	handlerstats "github.com/memeticofficial/coreth/sync/handlers/stats"
-	"github.com/memeticofficial/coreth/trie"
+	"github.com/based-ai/coreth/consensus/dummy"
+	corethConstants "github.com/based-ai/coreth/constants"
+	"github.com/based-ai/coreth/core"
+	"github.com/based-ai/coreth/core/rawdb"
+	"github.com/based-ai/coreth/core/state"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/eth"
+	"github.com/based-ai/coreth/eth/ethconfig"
+	"github.com/based-ai/coreth/ethdb"
+	corethPrometheus "github.com/based-ai/coreth/metrics/prometheus"
+	"github.com/based-ai/coreth/miner"
+	"github.com/based-ai/coreth/node"
+	"github.com/based-ai/coreth/params"
+	"github.com/based-ai/coreth/peer"
+	"github.com/based-ai/coreth/plugin/evm/message"
+	"github.com/based-ai/coreth/rpc"
+	statesyncclient "github.com/based-ai/coreth/sync/client"
+	"github.com/based-ai/coreth/sync/client/stats"
+	"github.com/based-ai/coreth/sync/handlers"
+	handlerstats "github.com/based-ai/coreth/sync/handlers/stats"
+	"github.com/based-ai/coreth/trie"
 
 	"github.com/prometheus/client_golang/prometheus"
 	// Force-load tracer engine to trigger registration
@@ -46,46 +46,46 @@ import (
 	// We must import this package (not referenced elsewhere) so that the native "callTracer"
 	// is added to a map of client-accessible tracers. In geth, this is done
 	// inside of cmd/geth.
-	_ "github.com/memeticofficial/coreth/eth/tracers/js"
-	_ "github.com/memeticofficial/coreth/eth/tracers/native"
+	_ "github.com/based-ai/coreth/eth/tracers/js"
+	_ "github.com/based-ai/coreth/eth/tracers/native"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/memeticofficial/coreth/metrics"
+	"github.com/based-ai/coreth/metrics"
 
-	pepecoinRPC "github.com/gorilla/rpc/v2"
+	basedaiRPC "github.com/gorilla/rpc/v2"
 
-	"github.com/memeticofficial/pepecoingo/cache"
-	"github.com/memeticofficial/pepecoingo/codec"
-	"github.com/memeticofficial/pepecoingo/codec/linearcodec"
-	"github.com/memeticofficial/pepecoingo/database"
-	"github.com/memeticofficial/pepecoingo/database/manager"
-	"github.com/memeticofficial/pepecoingo/database/prefixdb"
-	"github.com/memeticofficial/pepecoingo/database/versiondb"
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/snow"
-	"github.com/memeticofficial/pepecoingo/snow/choices"
-	"github.com/memeticofficial/pepecoingo/snow/consensus/snowman"
-	"github.com/memeticofficial/pepecoingo/snow/engine/snowman/block"
-	"github.com/memeticofficial/pepecoingo/utils/constants"
-	"github.com/memeticofficial/pepecoingo/utils/crypto/secp256k1"
-	"github.com/memeticofficial/pepecoingo/utils/formatting/address"
-	"github.com/memeticofficial/pepecoingo/utils/logging"
-	"github.com/memeticofficial/pepecoingo/utils/math"
-	"github.com/memeticofficial/pepecoingo/utils/perms"
-	"github.com/memeticofficial/pepecoingo/utils/profiler"
-	"github.com/memeticofficial/pepecoingo/utils/set"
-	"github.com/memeticofficial/pepecoingo/utils/timer/mockable"
-	"github.com/memeticofficial/pepecoingo/utils/units"
-	"github.com/memeticofficial/pepecoingo/vms/components/avax"
-	"github.com/memeticofficial/pepecoingo/vms/components/chain"
-	"github.com/memeticofficial/pepecoingo/vms/secp256k1fx"
+	"github.com/based-ai/basedaigo/cache"
+	"github.com/based-ai/basedaigo/codec"
+	"github.com/based-ai/basedaigo/codec/linearcodec"
+	"github.com/based-ai/basedaigo/database"
+	"github.com/based-ai/basedaigo/database/manager"
+	"github.com/based-ai/basedaigo/database/prefixdb"
+	"github.com/based-ai/basedaigo/database/versiondb"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/snow"
+	"github.com/based-ai/basedaigo/snow/choices"
+	"github.com/based-ai/basedaigo/snow/consensus/snowman"
+	"github.com/based-ai/basedaigo/snow/engine/snowman/block"
+	"github.com/based-ai/basedaigo/utils/constants"
+	"github.com/based-ai/basedaigo/utils/crypto/secp256k1"
+	"github.com/based-ai/basedaigo/utils/formatting/address"
+	"github.com/based-ai/basedaigo/utils/logging"
+	"github.com/based-ai/basedaigo/utils/math"
+	"github.com/based-ai/basedaigo/utils/perms"
+	"github.com/based-ai/basedaigo/utils/profiler"
+	"github.com/based-ai/basedaigo/utils/set"
+	"github.com/based-ai/basedaigo/utils/timer/mockable"
+	"github.com/based-ai/basedaigo/utils/units"
+	"github.com/based-ai/basedaigo/vms/components/avax"
+	"github.com/based-ai/basedaigo/vms/components/chain"
+	"github.com/based-ai/basedaigo/vms/secp256k1fx"
 
-	commonEng "github.com/memeticofficial/pepecoingo/snow/engine/common"
+	commonEng "github.com/based-ai/basedaigo/snow/engine/common"
 
-	pepecoinJSON "github.com/memeticofficial/pepecoingo/utils/json"
+	basedaiJSON "github.com/based-ai/basedaigo/utils/json"
 )
 
 const (
@@ -275,7 +275,7 @@ type VM struct {
 	networkCodec codec.Manager
 
 	// Metrics
-	multiGatherer pepecoingoMetrics.MultiGatherer
+	multiGatherer basedaigoMetrics.MultiGatherer
 
 	bootstrapped bool
 	IsPlugin     bool
@@ -547,7 +547,7 @@ func (vm *VM) Initialize(
 }
 
 func (vm *VM) initializeMetrics() error {
-	vm.multiGatherer = pepecoingoMetrics.NewMultiGatherer()
+	vm.multiGatherer = basedaigoMetrics.NewMultiGatherer()
 	// If metrics are enabled, register the default metrics regitry
 	if metrics.Enabled {
 		gatherer := corethPrometheus.Gatherer(metrics.DefaultRegistry)
@@ -1118,9 +1118,9 @@ func (vm *VM) Version(context.Context) (string, error) {
 //     By default the LockOption is WriteLock
 //     [lockOption] should have either 0 or 1 elements. Elements beside the first are ignored.
 func newHandler(name string, service interface{}, lockOption ...commonEng.LockOption) (*commonEng.HTTPHandler, error) {
-	server := pepecoinRPC.NewServer()
-	server.RegisterCodec(pepecoinJSON.NewCodec(), "application/json")
-	server.RegisterCodec(pepecoinJSON.NewCodec(), "application/json;charset=UTF-8")
+	server := basedaiRPC.NewServer()
+	server.RegisterCodec(basedaiJSON.NewCodec(), "application/json")
+	server.RegisterCodec(basedaiJSON.NewCodec(), "application/json;charset=UTF-8")
 	if err := server.RegisterService(service, name); err != nil {
 		return nil, err
 	}

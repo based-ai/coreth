@@ -4,8 +4,8 @@
 package handlers
 
 import (
-	"github.com/memeticofficial/coreth/core/state/snapshot"
-	"github.com/memeticofficial/coreth/core/types"
+	"github.com/based-ai/coreth/core/state/snapshot"
+	"github.com/based-ai/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 )
 

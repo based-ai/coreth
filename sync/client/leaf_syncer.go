@@ -13,8 +13,8 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/memeticofficial/coreth/plugin/evm/message"
-	"github.com/memeticofficial/coreth/utils"
+	"github.com/based-ai/coreth/plugin/evm/message"
+	"github.com/based-ai/coreth/utils"
 )
 
 var (

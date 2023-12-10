@@ -29,9 +29,9 @@ package core
 import (
 	"math/big"
 
-	"github.com/memeticofficial/coreth/consensus"
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/core/vm"
+	"github.com/based-ai/coreth/consensus"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/core/vm"
 	"github.com/ethereum/go-ethereum/common"
 	//"github.com/ethereum/go-ethereum/log"
 )

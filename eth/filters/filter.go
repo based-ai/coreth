@@ -32,9 +32,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/memeticofficial/coreth/core/bloombits"
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/rpc"
+	"github.com/based-ai/coreth/core/bloombits"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 )
 

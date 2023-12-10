@@ -29,7 +29,7 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/memeticofficial/coreth/core/vm/runtime"
+	"github.com/based-ai/coreth/core/vm/runtime"
 	"github.com/ethereum/go-ethereum/common"
 )
 

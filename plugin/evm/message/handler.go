@@ -8,7 +8,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/based-ai/basedaigo/ids"
 )
 
 var (

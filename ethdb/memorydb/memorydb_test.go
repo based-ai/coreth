@@ -29,8 +29,8 @@ package memorydb
 import (
 	"testing"
 
-	"github.com/memeticofficial/coreth/ethdb"
-	"github.com/memeticofficial/coreth/ethdb/dbtest"
+	"github.com/based-ai/coreth/ethdb"
+	"github.com/based-ai/coreth/ethdb/dbtest"
 )
 
 func TestMemoryDB(t *testing.T) {

@@ -8,11 +8,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/memeticofficial/pepecoingo/codec"
-	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/based-ai/basedaigo/codec"
+	"github.com/based-ai/basedaigo/ids"
 
-	"github.com/memeticofficial/coreth/plugin/evm/message"
-	"github.com/memeticofficial/coreth/sync/handlers/stats"
+	"github.com/based-ai/coreth/plugin/evm/message"
+	"github.com/based-ai/coreth/sync/handlers/stats"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

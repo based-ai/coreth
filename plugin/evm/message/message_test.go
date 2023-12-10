@@ -7,8 +7,8 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/memeticofficial/pepecoingo/utils"
-	"github.com/memeticofficial/pepecoingo/utils/units"
+	"github.com/based-ai/basedaigo/utils"
+	"github.com/based-ai/basedaigo/utils/units"
 
 	"github.com/stretchr/testify/assert"
 )

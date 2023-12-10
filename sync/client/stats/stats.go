@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/memeticofficial/coreth/metrics"
-	"github.com/memeticofficial/coreth/plugin/evm/message"
+	"github.com/based-ai/coreth/metrics"
+	"github.com/based-ai/coreth/plugin/evm/message"
 )
 
 var (

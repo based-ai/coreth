@@ -40,7 +40,7 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/memeticofficial/coreth/accounts/abi"
+	"github.com/based-ai/coreth/accounts/abi"
 	"github.com/ethereum/go-ethereum/log"
 )
 

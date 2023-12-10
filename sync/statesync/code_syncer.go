@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/utils/set"
-	"github.com/memeticofficial/coreth/core/rawdb"
-	"github.com/memeticofficial/coreth/ethdb"
-	"github.com/memeticofficial/coreth/params"
-	statesyncclient "github.com/memeticofficial/coreth/sync/client"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/utils/set"
+	"github.com/based-ai/coreth/core/rawdb"
+	"github.com/based-ai/coreth/ethdb"
+	"github.com/based-ai/coreth/params"
+	statesyncclient "github.com/based-ai/coreth/sync/client"
 	"github.com/ethereum/go-ethereum/common"
 )
 

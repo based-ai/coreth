@@ -32,7 +32,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/memeticofficial/coreth/ethdb"
+	"github.com/based-ai/coreth/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

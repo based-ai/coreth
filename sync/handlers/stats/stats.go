@@ -6,7 +6,7 @@ package stats
 import (
 	"time"
 
-	"github.com/memeticofficial/coreth/metrics"
+	"github.com/based-ai/coreth/metrics"
 )
 
 // HandlerStats reports prometheus metrics for the state sync handlers

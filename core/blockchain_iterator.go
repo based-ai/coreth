@@ -33,7 +33,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/memeticofficial/coreth/core/types"
+	"github.com/based-ai/coreth/core/types"
 )
 
 type blockAndState struct {

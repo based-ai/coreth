@@ -27,7 +27,7 @@
 package vm
 
 import (
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/coreth/params"
 )
 
 func minSwapStack(n int) int {

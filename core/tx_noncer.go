@@ -29,7 +29,7 @@ package core
 import (
 	"sync"
 
-	"github.com/memeticofficial/coreth/core/state"
+	"github.com/based-ai/coreth/core/state"
 	"github.com/ethereum/go-ethereum/common"
 )
 

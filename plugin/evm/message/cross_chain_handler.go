@@ -7,10 +7,10 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/memeticofficial/pepecoingo/codec"
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/coreth/internal/ethapi"
-	"github.com/memeticofficial/coreth/rpc"
+	"github.com/based-ai/basedaigo/codec"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/coreth/internal/ethapi"
+	"github.com/based-ai/coreth/rpc"
 	"github.com/ethereum/go-ethereum/log"
 )
 

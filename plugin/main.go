@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/memeticofficial/pepecoingo/utils/logging"
-	"github.com/memeticofficial/pepecoingo/utils/ulimit"
-	"github.com/memeticofficial/pepecoingo/vms/rpcchainvm"
+	"github.com/based-ai/basedaigo/utils/logging"
+	"github.com/based-ai/basedaigo/utils/ulimit"
+	"github.com/based-ai/basedaigo/vms/rpcchainvm"
 
-	"github.com/memeticofficial/coreth/plugin/evm"
+	"github.com/based-ai/coreth/plugin/evm"
 )
 
 func main() {

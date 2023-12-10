@@ -13,13 +13,13 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/memeticofficial/pepecoingo/codec"
-	"github.com/memeticofficial/pepecoingo/database"
-	"github.com/memeticofficial/pepecoingo/database/prefixdb"
-	"github.com/memeticofficial/pepecoingo/database/versiondb"
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/utils/units"
-	"github.com/memeticofficial/pepecoingo/utils/wrappers"
+	"github.com/based-ai/basedaigo/codec"
+	"github.com/based-ai/basedaigo/database"
+	"github.com/based-ai/basedaigo/database/prefixdb"
+	"github.com/based-ai/basedaigo/database/versiondb"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/utils/units"
+	"github.com/based-ai/basedaigo/utils/wrappers"
 )
 
 const (

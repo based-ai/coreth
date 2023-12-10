@@ -35,11 +35,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/memeticofficial/coreth/core/rawdb"
-	"github.com/memeticofficial/coreth/ethdb"
-	"github.com/memeticofficial/coreth/metrics"
-	"github.com/memeticofficial/coreth/trie"
-	"github.com/memeticofficial/coreth/utils"
+	"github.com/based-ai/coreth/core/rawdb"
+	"github.com/based-ai/coreth/ethdb"
+	"github.com/based-ai/coreth/metrics"
+	"github.com/based-ai/coreth/trie"
+	"github.com/based-ai/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

@@ -29,7 +29,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/memeticofficial/coreth/ethdb/memorydb"
+	"github.com/based-ai/coreth/ethdb/memorydb"
 	"github.com/ethereum/go-ethereum/common"
 )
 

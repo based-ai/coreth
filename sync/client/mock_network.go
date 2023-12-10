@@ -6,10 +6,10 @@ package statesyncclient
 import (
 	"errors"
 
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/coreth/peer"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/coreth/peer"
 
-	"github.com/memeticofficial/pepecoingo/version"
+	"github.com/based-ai/basedaigo/version"
 )
 
 var _ peer.NetworkClient = &mockNetwork{}

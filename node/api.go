@@ -27,8 +27,8 @@
 package node
 
 import (
-	"github.com/memeticofficial/coreth/internal/debug"
-	"github.com/memeticofficial/coreth/rpc"
+	"github.com/based-ai/coreth/internal/debug"
+	"github.com/based-ai/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 )

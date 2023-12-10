@@ -27,7 +27,7 @@
 package core
 
 import (
-	"github.com/memeticofficial/coreth/core/types"
+	"github.com/based-ai/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 )
 

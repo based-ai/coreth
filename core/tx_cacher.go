@@ -29,7 +29,7 @@ package core
 import (
 	"sync"
 
-	"github.com/memeticofficial/coreth/core/types"
+	"github.com/based-ai/coreth/core/types"
 )
 
 // txSenderCacherRequest is a request for recovering transaction senders with a

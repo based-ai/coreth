@@ -9,13 +9,13 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/memeticofficial/pepecoingo/api"
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/utils/crypto/secp256k1"
-	"github.com/memeticofficial/pepecoingo/utils/formatting"
-	"github.com/memeticofficial/pepecoingo/utils/rpc"
+	"github.com/based-ai/basedaigo/api"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/utils/crypto/secp256k1"
+	"github.com/based-ai/basedaigo/utils/formatting"
+	"github.com/based-ai/basedaigo/utils/rpc"
 
-	cjson "github.com/memeticofficial/pepecoingo/utils/json"
+	cjson "github.com/based-ai/basedaigo/utils/json"
 )
 
 // Interface compliance

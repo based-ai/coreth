@@ -33,8 +33,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/memeticofficial/coreth/core/vm"
-	"github.com/memeticofficial/coreth/eth/tracers"
+	"github.com/based-ai/coreth/core/vm"
+	"github.com/based-ai/coreth/eth/tracers"
 	"github.com/ethereum/go-ethereum/common"
 )
 

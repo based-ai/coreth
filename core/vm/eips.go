@@ -30,7 +30,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/coreth/params"
 	"github.com/holiman/uint256"
 )
 

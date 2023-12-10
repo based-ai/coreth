@@ -6,8 +6,8 @@ package core
 import (
 	"math/big"
 
-	"github.com/memeticofficial/coreth/core/state"
-	"github.com/memeticofficial/coreth/precompile"
+	"github.com/based-ai/coreth/core/state"
+	"github.com/based-ai/coreth/precompile"
 	"github.com/ethereum/go-ethereum/common"
 )
 

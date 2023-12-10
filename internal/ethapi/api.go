@@ -33,19 +33,19 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/coreth/accounts"
-	"github.com/memeticofficial/coreth/accounts/abi"
-	"github.com/memeticofficial/coreth/accounts/keystore"
-	"github.com/memeticofficial/coreth/accounts/scwallet"
-	"github.com/memeticofficial/coreth/core"
-	"github.com/memeticofficial/coreth/core/state"
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/core/vm"
-	"github.com/memeticofficial/coreth/eth/tracers/logger"
-	"github.com/memeticofficial/coreth/params"
-	"github.com/memeticofficial/coreth/rpc"
-	"github.com/memeticofficial/coreth/vmerrs"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/coreth/accounts"
+	"github.com/based-ai/coreth/accounts/abi"
+	"github.com/based-ai/coreth/accounts/keystore"
+	"github.com/based-ai/coreth/accounts/scwallet"
+	"github.com/based-ai/coreth/core"
+	"github.com/based-ai/coreth/core/state"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/core/vm"
+	"github.com/based-ai/coreth/eth/tracers/logger"
+	"github.com/based-ai/coreth/params"
+	"github.com/based-ai/coreth/rpc"
+	"github.com/based-ai/coreth/vmerrs"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
@@ -132,7 +132,7 @@ func (s *EthereumAPI) FeeHistory(ctx context.Context, blockCount rpc.DecimalOrHe
 // Syncing allows the caller to determine whether the chain is syncing or not.
 // In geth, the response is either a map representing an ethereum.SyncProgress
 // struct or "false" (indicating the chain is not syncing).
-// In coreth, pepecoingo prevents API calls unless bootstrapping is complete,
+// In coreth, basedaigo prevents API calls unless bootstrapping is complete,
 // so we always return false here for API compatibility.
 func (s *EthereumAPI) Syncing() (interface{}, error) {
 	return false, nil

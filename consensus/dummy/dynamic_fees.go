@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/memeticofficial/pepecoingo/utils/wrappers"
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/basedaigo/utils/wrappers"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 )

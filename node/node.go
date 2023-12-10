@@ -27,8 +27,8 @@
 package node
 
 import (
-	"github.com/memeticofficial/coreth/accounts"
-	"github.com/memeticofficial/coreth/rpc"
+	"github.com/based-ai/coreth/accounts"
+	"github.com/based-ai/coreth/rpc"
 )
 
 // Node is a container on which services can be registered.

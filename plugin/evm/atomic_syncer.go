@@ -9,14 +9,14 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/memeticofficial/pepecoingo/database/versiondb"
-	"github.com/memeticofficial/pepecoingo/utils/wrappers"
+	"github.com/based-ai/basedaigo/database/versiondb"
+	"github.com/based-ai/basedaigo/utils/wrappers"
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/memeticofficial/coreth/plugin/evm/message"
-	syncclient "github.com/memeticofficial/coreth/sync/client"
-	"github.com/memeticofficial/coreth/trie"
+	"github.com/based-ai/coreth/plugin/evm/message"
+	syncclient "github.com/based-ai/coreth/sync/client"
+	"github.com/based-ai/coreth/trie"
 )
 
 var (

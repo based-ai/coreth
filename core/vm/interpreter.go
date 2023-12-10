@@ -29,7 +29,7 @@ package vm
 import (
 	"hash"
 
-	"github.com/memeticofficial/coreth/vmerrs"
+	"github.com/based-ai/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/log"

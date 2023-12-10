@@ -31,8 +31,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/memeticofficial/pepecoingo/utils/wrappers"
-	"github.com/memeticofficial/coreth/metrics"
+	"github.com/based-ai/basedaigo/utils/wrappers"
+	"github.com/based-ai/coreth/metrics"
 	"github.com/ethereum/go-ethereum/common"
 )
 

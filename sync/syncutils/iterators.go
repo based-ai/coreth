@@ -4,8 +4,8 @@
 package syncutils
 
 import (
-	"github.com/memeticofficial/coreth/core/state/snapshot"
-	"github.com/memeticofficial/coreth/ethdb"
+	"github.com/based-ai/coreth/core/state/snapshot"
+	"github.com/based-ai/coreth/ethdb"
 )
 
 var (

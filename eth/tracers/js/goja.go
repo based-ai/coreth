@@ -35,9 +35,9 @@ import (
 
 	"github.com/dop251/goja"
 
-	"github.com/memeticofficial/coreth/core/vm"
-	"github.com/memeticofficial/coreth/eth/tracers"
-	jsassets "github.com/memeticofficial/coreth/eth/tracers/js/internal/tracers"
+	"github.com/based-ai/coreth/core/vm"
+	"github.com/based-ai/coreth/eth/tracers"
+	jsassets "github.com/based-ai/coreth/eth/tracers/js/internal/tracers"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"

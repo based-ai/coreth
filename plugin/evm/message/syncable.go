@@ -7,11 +7,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/based-ai/basedaigo/ids"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/memeticofficial/pepecoingo/snow/engine/snowman/block"
+	"github.com/based-ai/basedaigo/snow/engine/snowman/block"
 )
 
 var _ block.StateSummary = &SyncSummary{}

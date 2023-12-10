@@ -9,9 +9,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/memeticofficial/coreth/core"
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/coreth/core"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

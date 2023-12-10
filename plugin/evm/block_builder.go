@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/memeticofficial/pepecoingo/utils/timer"
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/basedaigo/utils/timer"
+	"github.com/based-ai/coreth/params"
 
-	"github.com/memeticofficial/pepecoingo/snow"
-	commonEng "github.com/memeticofficial/pepecoingo/snow/engine/common"
-	"github.com/memeticofficial/coreth/core"
+	"github.com/based-ai/basedaigo/snow"
+	commonEng "github.com/based-ai/basedaigo/snow/engine/common"
+	"github.com/based-ai/coreth/core"
 	"github.com/ethereum/go-ethereum/log"
 )
 

@@ -7,12 +7,12 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/memeticofficial/pepecoingo/chains/atomic"
-	"github.com/memeticofficial/pepecoingo/codec"
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/utils/wrappers"
+	"github.com/based-ai/basedaigo/chains/atomic"
+	"github.com/based-ai/basedaigo/codec"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/utils/wrappers"
 
-	"github.com/memeticofficial/coreth/trie"
+	"github.com/based-ai/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 )
 

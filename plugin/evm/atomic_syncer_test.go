@@ -11,15 +11,15 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/memeticofficial/pepecoingo/database/memdb"
-	"github.com/memeticofficial/pepecoingo/database/versiondb"
+	"github.com/based-ai/basedaigo/database/memdb"
+	"github.com/based-ai/basedaigo/database/versiondb"
 
-	"github.com/memeticofficial/coreth/ethdb/memorydb"
-	"github.com/memeticofficial/coreth/plugin/evm/message"
-	syncclient "github.com/memeticofficial/coreth/sync/client"
-	"github.com/memeticofficial/coreth/sync/handlers"
-	handlerstats "github.com/memeticofficial/coreth/sync/handlers/stats"
-	"github.com/memeticofficial/coreth/trie"
+	"github.com/based-ai/coreth/ethdb/memorydb"
+	"github.com/based-ai/coreth/plugin/evm/message"
+	syncclient "github.com/based-ai/coreth/sync/client"
+	"github.com/based-ai/coreth/sync/handlers"
+	handlerstats "github.com/based-ai/coreth/sync/handlers/stats"
+	"github.com/based-ai/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 )
 

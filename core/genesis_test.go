@@ -32,11 +32,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/memeticofficial/coreth/consensus/dummy"
-	"github.com/memeticofficial/coreth/core/rawdb"
-	"github.com/memeticofficial/coreth/core/vm"
-	"github.com/memeticofficial/coreth/ethdb"
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/coreth/consensus/dummy"
+	"github.com/based-ai/coreth/core/rawdb"
+	"github.com/based-ai/coreth/core/vm"
+	"github.com/based-ai/coreth/ethdb"
+	"github.com/based-ai/coreth/params"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
@@ -113,7 +113,7 @@ func TestSetupGenesis(t *testing.T) {
 			wantConfig: customg.Config,
 		},
 		{
-			name: "incompatible config for pepecoin fork in DB",
+			name: "incompatible config for basedai fork in DB",
 			fn: func(db ethdb.Database) (*params.ChainConfig, common.Hash, error) {
 				// Commit the 'old' genesis block with ApricotPhase1 transition at 90.
 				// Advance to block #4, past the ApricotPhase1 transition block of customg.

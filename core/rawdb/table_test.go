@@ -30,7 +30,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/memeticofficial/coreth/ethdb"
+	"github.com/based-ai/coreth/ethdb"
 )
 
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }

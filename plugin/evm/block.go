@@ -14,10 +14,10 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/memeticofficial/coreth/core/types"
+	"github.com/based-ai/coreth/core/types"
 
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/snow/choices"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/snow/choices"
 )
 
 var (

@@ -31,8 +31,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/interfaces"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/interfaces"
 	"github.com/ethereum/go-ethereum/common"
 )
 

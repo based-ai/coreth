@@ -21,7 +21,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/memeticofficial/coreth/core/vm"
+	"github.com/based-ai/coreth/core/vm"
 	"github.com/ethereum/go-ethereum/common"
 )
 

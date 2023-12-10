@@ -11,24 +11,24 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/based-ai/basedaigo/ids"
 
-	"github.com/memeticofficial/coreth/ethdb/memorydb"
-	"github.com/memeticofficial/coreth/params"
-	"github.com/memeticofficial/coreth/sync/client/stats"
+	"github.com/based-ai/coreth/ethdb/memorydb"
+	"github.com/based-ai/coreth/params"
+	"github.com/based-ai/coreth/sync/client/stats"
 
-	"github.com/memeticofficial/pepecoingo/codec"
-	"github.com/memeticofficial/pepecoingo/version"
+	"github.com/based-ai/basedaigo/codec"
+	"github.com/based-ai/basedaigo/version"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/ethdb"
-	"github.com/memeticofficial/coreth/peer"
-	"github.com/memeticofficial/coreth/plugin/evm/message"
-	"github.com/memeticofficial/coreth/trie"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/ethdb"
+	"github.com/based-ai/coreth/peer"
+	"github.com/based-ai/coreth/plugin/evm/message"
+	"github.com/based-ai/coreth/trie"
 )
 
 const (

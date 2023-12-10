@@ -32,7 +32,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )

@@ -29,9 +29,9 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/memeticofficial/coreth/core"
-	"github.com/memeticofficial/coreth/eth/gasprice"
-	"github.com/memeticofficial/coreth/miner"
+	"github.com/based-ai/coreth/core"
+	"github.com/based-ai/coreth/eth/gasprice"
+	"github.com/based-ai/coreth/miner"
 	"github.com/ethereum/go-ethereum/common"
 )
 

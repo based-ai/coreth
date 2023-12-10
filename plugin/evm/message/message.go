@@ -7,12 +7,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/memeticofficial/pepecoingo/codec"
+	"github.com/based-ai/basedaigo/codec"
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/utils/units"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/utils/units"
 )
 
 const (

@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/memeticofficial/pepecoingo/codec"
-	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/based-ai/basedaigo/codec"
+	"github.com/based-ai/basedaigo/ids"
 )
 
 // Request represents a Network request type

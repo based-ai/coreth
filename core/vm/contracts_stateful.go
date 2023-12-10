@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/memeticofficial/coreth/precompile"
-	"github.com/memeticofficial/coreth/vmerrs"
+	"github.com/based-ai/coreth/precompile"
+	"github.com/based-ai/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
 )

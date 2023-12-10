@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/core/vm"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/core/vm"
 	"github.com/ethereum/go-ethereum/common"
 )
 

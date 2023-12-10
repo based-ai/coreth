@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/coreth/params"
 )
 
 type mockGasPriceSetter struct {

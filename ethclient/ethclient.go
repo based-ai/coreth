@@ -34,11 +34,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/coreth/accounts/abi/bind"
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/interfaces"
-	"github.com/memeticofficial/coreth/rpc"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/coreth/accounts/abi/bind"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/interfaces"
+	"github.com/based-ai/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )

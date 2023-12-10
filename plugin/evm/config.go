@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/memeticofficial/coreth/core"
-	"github.com/memeticofficial/coreth/eth"
+	"github.com/based-ai/coreth/core"
+	"github.com/based-ai/coreth/eth"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/spf13/cast"
 )

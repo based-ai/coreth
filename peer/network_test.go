@@ -12,19 +12,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/memeticofficial/pepecoingo/snow/engine/common"
-	"github.com/memeticofficial/pepecoingo/utils/set"
+	"github.com/based-ai/basedaigo/snow/engine/common"
+	"github.com/based-ai/basedaigo/utils/set"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 
-	"github.com/memeticofficial/coreth/plugin/evm/message"
+	"github.com/based-ai/coreth/plugin/evm/message"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/memeticofficial/pepecoingo/codec"
-	"github.com/memeticofficial/pepecoingo/codec/linearcodec"
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/version"
+	"github.com/based-ai/basedaigo/codec"
+	"github.com/based-ai/basedaigo/codec/linearcodec"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/version"
 )
 
 var (
@@ -319,7 +319,7 @@ func TestRequestMinVersion(t *testing.T) {
 		},
 		requestBytes,
 	)
-	assert.Equal(t, err.Error(), "no peers found matching version pepecoin/2.0.0 out of 1 peers")
+	assert.Equal(t, err.Error(), "no peers found matching version basedai/2.0.0 out of 1 peers")
 	assert.Nil(t, responseBytes)
 
 	// ensure version matches and the request goes through

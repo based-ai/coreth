@@ -27,7 +27,7 @@
 package node
 
 import (
-	"github.com/memeticofficial/coreth/rpc"
+	"github.com/based-ai/coreth/rpc"
 )
 
 const (

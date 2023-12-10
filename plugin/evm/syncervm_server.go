@@ -7,11 +7,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/memeticofficial/pepecoingo/database"
-	"github.com/memeticofficial/pepecoingo/snow/engine/snowman/block"
+	"github.com/based-ai/basedaigo/database"
+	"github.com/based-ai/basedaigo/snow/engine/snowman/block"
 
-	"github.com/memeticofficial/coreth/core"
-	"github.com/memeticofficial/coreth/plugin/evm/message"
+	"github.com/based-ai/coreth/core"
+	"github.com/based-ai/coreth/plugin/evm/message"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/memeticofficial/coreth/core/state/snapshot"
-	"github.com/memeticofficial/coreth/ethdb"
-	syncclient "github.com/memeticofficial/coreth/sync/client"
-	"github.com/memeticofficial/coreth/trie"
+	"github.com/based-ai/coreth/core/state/snapshot"
+	"github.com/based-ai/coreth/ethdb"
+	syncclient "github.com/based-ai/coreth/sync/client"
+	"github.com/based-ai/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"golang.org/x/sync/errgroup"
 )

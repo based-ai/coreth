@@ -30,9 +30,9 @@ import (
 	"errors"
 	"sync/atomic"
 
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/params"
-	"github.com/memeticofficial/coreth/vmerrs"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/params"
+	"github.com/based-ai/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
 	"golang.org/x/crypto/sha3"

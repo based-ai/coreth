@@ -29,7 +29,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/coreth/params"
 )
 
 type (

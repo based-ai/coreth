@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/memeticofficial/coreth/core/vm"
+	"github.com/based-ai/coreth/core/vm"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 )

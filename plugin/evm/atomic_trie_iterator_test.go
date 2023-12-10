@@ -6,11 +6,11 @@ package evm
 import (
 	"testing"
 
-	"github.com/memeticofficial/pepecoingo/chains/atomic"
-	"github.com/memeticofficial/pepecoingo/database/memdb"
-	"github.com/memeticofficial/pepecoingo/database/versiondb"
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/utils"
+	"github.com/based-ai/basedaigo/chains/atomic"
+	"github.com/based-ai/basedaigo/database/memdb"
+	"github.com/based-ai/basedaigo/database/versiondb"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

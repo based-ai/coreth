@@ -20,10 +20,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/memeticofficial/coreth/core/bloombits"
-	"github.com/memeticofficial/coreth/core/rawdb"
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/ethdb"
+	"github.com/based-ai/coreth/core/bloombits"
+	"github.com/based-ai/coreth/core/rawdb"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/ethdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/bitutil"
 )

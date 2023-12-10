@@ -30,8 +30,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/memeticofficial/coreth/core/rawdb"
-	"github.com/memeticofficial/coreth/ethdb/memorydb"
+	"github.com/based-ai/coreth/core/rawdb"
+	"github.com/based-ai/coreth/ethdb/memorydb"
 	"github.com/ethereum/go-ethereum/common"
 )
 

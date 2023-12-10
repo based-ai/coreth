@@ -6,7 +6,7 @@ package message
 import (
 	"testing"
 
-	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/based-ai/basedaigo/ids"
 
 	"github.com/stretchr/testify/assert"
 )

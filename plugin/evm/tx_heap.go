@@ -6,7 +6,7 @@ package evm
 import (
 	"container/heap"
 
-	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/based-ai/basedaigo/ids"
 )
 
 // txEntry is used to track the [gasPrice] transactions pay to be included in

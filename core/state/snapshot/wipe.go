@@ -30,8 +30,8 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/memeticofficial/coreth/core/rawdb"
-	"github.com/memeticofficial/coreth/ethdb"
+	"github.com/based-ai/coreth/core/rawdb"
+	"github.com/based-ai/coreth/ethdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

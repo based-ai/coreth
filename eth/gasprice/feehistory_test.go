@@ -32,12 +32,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/memeticofficial/coreth/core"
-	"github.com/memeticofficial/coreth/core/types"
+	"github.com/based-ai/coreth/core"
+	"github.com/based-ai/coreth/core/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/memeticofficial/coreth/params"
-	"github.com/memeticofficial/coreth/rpc"
+	"github.com/based-ai/coreth/params"
+	"github.com/based-ai/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 )
 

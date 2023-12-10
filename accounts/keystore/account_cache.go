@@ -37,7 +37,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/memeticofficial/coreth/accounts"
+	"github.com/based-ai/coreth/accounts"
 	mapset "github.com/deckarep/golang-set"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"

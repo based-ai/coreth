@@ -7,17 +7,17 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/memeticofficial/pepecoingo/chains/atomic"
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/utils"
-	"github.com/memeticofficial/pepecoingo/utils/constants"
-	"github.com/memeticofficial/pepecoingo/utils/crypto/secp256k1"
-	"github.com/memeticofficial/pepecoingo/utils/set"
-	"github.com/memeticofficial/pepecoingo/vms/components/avax"
-	"github.com/memeticofficial/pepecoingo/vms/secp256k1fx"
+	"github.com/based-ai/basedaigo/chains/atomic"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/utils"
+	"github.com/based-ai/basedaigo/utils/constants"
+	"github.com/based-ai/basedaigo/utils/crypto/secp256k1"
+	"github.com/based-ai/basedaigo/utils/set"
+	"github.com/based-ai/basedaigo/vms/components/avax"
+	"github.com/based-ai/basedaigo/vms/secp256k1fx"
 )
 
 // createImportTxOptions adds a UTXO to shared memory and generates a list of import transactions sending this UTXO

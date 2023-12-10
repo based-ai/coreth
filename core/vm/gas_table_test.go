@@ -33,10 +33,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/memeticofficial/coreth/core/rawdb"
-	"github.com/memeticofficial/coreth/core/state"
-	"github.com/memeticofficial/coreth/params"
-	"github.com/memeticofficial/coreth/vmerrs"
+	"github.com/based-ai/coreth/core/rawdb"
+	"github.com/based-ai/coreth/core/state"
+	"github.com/based-ai/coreth/params"
+	"github.com/based-ai/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )

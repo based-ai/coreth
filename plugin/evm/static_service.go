@@ -7,8 +7,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/memeticofficial/pepecoingo/utils/formatting"
-	"github.com/memeticofficial/coreth/core"
+	"github.com/based-ai/basedaigo/utils/formatting"
+	"github.com/based-ai/coreth/core"
 )
 
 // StaticService defines the static API services exposed by the evm

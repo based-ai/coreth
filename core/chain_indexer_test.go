@@ -35,8 +35,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/memeticofficial/coreth/core/rawdb"
-	"github.com/memeticofficial/coreth/core/types"
+	"github.com/based-ai/coreth/core/rawdb"
+	"github.com/based-ai/coreth/core/types"
 	"github.com/ethereum/go-ethereum/common"
 )
 

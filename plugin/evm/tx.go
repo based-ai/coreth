@@ -12,20 +12,20 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/memeticofficial/coreth/core/state"
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/coreth/core/state"
+	"github.com/based-ai/coreth/params"
 
-	"github.com/memeticofficial/pepecoingo/chains/atomic"
-	"github.com/memeticofficial/pepecoingo/codec"
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/snow"
-	"github.com/memeticofficial/pepecoingo/utils"
-	"github.com/memeticofficial/pepecoingo/utils/crypto/secp256k1"
-	"github.com/memeticofficial/pepecoingo/utils/hashing"
-	"github.com/memeticofficial/pepecoingo/utils/set"
-	"github.com/memeticofficial/pepecoingo/utils/wrappers"
-	"github.com/memeticofficial/pepecoingo/vms/components/verify"
-	"github.com/memeticofficial/pepecoingo/vms/secp256k1fx"
+	"github.com/based-ai/basedaigo/chains/atomic"
+	"github.com/based-ai/basedaigo/codec"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/snow"
+	"github.com/based-ai/basedaigo/utils"
+	"github.com/based-ai/basedaigo/utils/crypto/secp256k1"
+	"github.com/based-ai/basedaigo/utils/hashing"
+	"github.com/based-ai/basedaigo/utils/set"
+	"github.com/based-ai/basedaigo/utils/wrappers"
+	"github.com/based-ai/basedaigo/vms/components/verify"
+	"github.com/based-ai/basedaigo/vms/secp256k1fx"
 )
 
 var (

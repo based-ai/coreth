@@ -6,9 +6,9 @@ package peer
 import (
 	"errors"
 
-	"github.com/memeticofficial/pepecoingo/ids"
+	"github.com/based-ai/basedaigo/ids"
 
-	"github.com/memeticofficial/pepecoingo/version"
+	"github.com/based-ai/basedaigo/version"
 )
 
 var (

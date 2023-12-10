@@ -6,10 +6,10 @@ package evm
 import (
 	"fmt"
 
-	"github.com/memeticofficial/pepecoingo/codec"
-	"github.com/memeticofficial/pepecoingo/codec/linearcodec"
-	"github.com/memeticofficial/pepecoingo/utils/wrappers"
-	"github.com/memeticofficial/pepecoingo/vms/secp256k1fx"
+	"github.com/based-ai/basedaigo/codec"
+	"github.com/based-ai/basedaigo/codec/linearcodec"
+	"github.com/based-ai/basedaigo/utils/wrappers"
+	"github.com/based-ai/basedaigo/vms/secp256k1fx"
 )
 
 // Codec does serialization and deserialization

@@ -44,7 +44,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/memeticofficial/coreth/eth/tracers"
+	"github.com/based-ai/coreth/eth/tracers"
 )
 
 // init registers itself this packages as a lookup for tracers.

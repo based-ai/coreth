@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/coreth/params"
 )
 
 type gasPriceUpdater struct {

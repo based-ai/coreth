@@ -30,7 +30,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/memeticofficial/coreth/params"
+	"github.com/based-ai/coreth/params"
 	"github.com/urfave/cli/v2"
 )
 

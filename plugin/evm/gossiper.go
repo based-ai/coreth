@@ -9,23 +9,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/memeticofficial/pepecoingo/codec"
+	"github.com/based-ai/basedaigo/codec"
 
-	"github.com/memeticofficial/coreth/peer"
+	"github.com/based-ai/coreth/peer"
 
-	"github.com/memeticofficial/pepecoingo/cache"
-	"github.com/memeticofficial/pepecoingo/ids"
-	"github.com/memeticofficial/pepecoingo/snow"
-	"github.com/memeticofficial/pepecoingo/utils/wrappers"
+	"github.com/based-ai/basedaigo/cache"
+	"github.com/based-ai/basedaigo/ids"
+	"github.com/based-ai/basedaigo/snow"
+	"github.com/based-ai/basedaigo/utils/wrappers"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/memeticofficial/coreth/core"
-	"github.com/memeticofficial/coreth/core/state"
-	"github.com/memeticofficial/coreth/core/types"
-	"github.com/memeticofficial/coreth/plugin/evm/message"
+	"github.com/based-ai/coreth/core"
+	"github.com/based-ai/coreth/core/state"
+	"github.com/based-ai/coreth/core/types"
+	"github.com/based-ai/coreth/plugin/evm/message"
 )
 
 const (
